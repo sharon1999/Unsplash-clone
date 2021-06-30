@@ -1,0 +1,109 @@
+html,body {
+    margin: 0;
+    height: 100%;
+    }
+ul {
+  list-style: none;
+}
+a {
+    color: #999;
+    text-decoration: none;
+}
+/* Navbar */
+.navbar {
+    padding:20px;
+    display: flex;   
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);    
+}  
+
+
+.nav{
+    margin-right: 50px;
+}
+.nav li:last-child a {
+    display: block;
+    background: #3cb46e;
+    color: #fff;
+    padding: 0.5rem 0.6rem;
+    border-radius: 5px;
+    transition: filter 0.5s;
+  }
+  .nav li:last-child a:hover {
+    background-color:gray;
+}
+.logo p{
+    color: white;
+}
+  
+.Login{
+    padding:10px;
+    margin-left: 5px;
+  }
+  /* Cateogary Navbar */
+  .category-nav {
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: center;
+    padding: 40px;
+    background-color: rgba(91, 72, 109, 0.103);
+    }
+    .category a {
+        padding: 0.8rem;
+        font-size: 20px;
+      }
+      .category a:link{
+          color: rgb(27, 95, 122);
+      }
+      .category a:visited{
+        color: rgb(27, 95, 122);
+    }
+    .category a:hover{
+        color: rgb(206, 84, 206);
+    }
+    
+ /* Hero     */
+ .hero{
+     
+     background-image: url("../img/hero.jpg"),url("../img/2.jpg"),url("../img/3.jpg"),url("../img/4.jpg"),url("../img/7.jpg") ;
+     background-position: center,left bottom,top left,bottom right,top right;
+     background-repeat: no-repeat;
+ }
+ .hero-content{
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     padding: 175px;
+ }
+ .hero-search-form input {
+    padding: 0.7rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #eee;
+    width: 600px;
+    font-size: 0.9rem;
+    color: #333;
+  }
+ #button{
+     padding:5px;
+     border:5px;
+     color: rgb(0, 0, 0);
+     font-size: 15px;
+     font-size: 20px;
+     background-color: rgb(255, 255, 255);
+     border: cadetblue solid 3px;
+ }
+ 
+ .trending-search-tags {
+    /* background-color: rgba(66, 78, 82, 0.301); */
+    color:wheat;
+    z-index: 1;
+}
+
+ .trending-search-tags a{
+     color: rgb(238, 231, 231);
+ }
+
+ 
